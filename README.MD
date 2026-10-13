@@ -5,7 +5,7 @@ react-agent/
 ├── agent/
 │   ├── loop.py              # ReAct 主循环
 │   ├── prompt.py            # 提示词构建 / Action 解析
-│   └──types.py             # HistoryItem 定义
+│   └── types.py             # HistoryItem 定义
 ├── tools/
 │   ├── calculator.py
 │   ├── current_time.py
