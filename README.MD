@@ -5,11 +5,11 @@ react-agent/
 ├── agent/
 │   ├── loop.py              # ReAct 主循环
 │   ├── prompt.py            # 提示词构建 / Action 解析
-│   ├── types.py             # HistoryItem 定义
+│   └──types.py             # HistoryItem 定义
 ├── tools/
 │   ├── calculator.py
 │   ├── current_time.py
-│   └── word_count.py
+│   ├── word_count.py
 │   └── types.py             # Tool 定义
 ├── llm.py                   # 模型调用 + JSON 日志 + print_message / print_messages
 ├── requirements.txt
